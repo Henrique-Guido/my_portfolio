@@ -75,42 +75,44 @@ h4 {
     font-size: 2rem;
 }
 
-/* home section */
-.section-container {
+/* home section 1 */
+.home-section-1 {
     padding: 0 70px;
     margin-top: 150px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.section-container .left-box {
+.home-section-1 .left-box {
     width: 600px;
 }
 
-.section-container .right-box {
-    width: 600px;
-    text-align: center;
+.home-section-1 .right-box {
+    width: 400px;
+    text-align: end;
 }
 
-.section-container .right-box img {
+.home-section-1 .right-box img {
     border-radius: 250px;
 }
 
-.section-container .left-box .home-title {
+.home-section-1 .left-box .home-title {
     font-size: 2.2rem;
+    color: #333;
     text-transform: uppercase;
     margin-bottom: 40px;
     font-weight: bold;
 }
 
-.section-container .left-box p {
+.home-section-1 .left-box p {
     font-size: 1.2rem;
     color: #333;
     line-height: 2rem;
     margin-bottom: 20px;
 }
 
-.section-container .left-box #about-btn {
+.home-section-1 .left-box #about-btn {
     background-color: #000;
     color: #FFF;
     padding: 10px 20px;
@@ -119,8 +121,60 @@ h4 {
     transition: .5s;
 }
 
-.section-container .left-box #about-btn:hover {
+.home-section-1 .left-box #about-btn:hover {
     background-color: #333;
 }
 
 /* home section 2 */
+.home-section-2 {
+    padding: 0 70px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.home-section-2 .left-box {
+    width: 400px;
+}
+
+.home-section-2 .right-box {
+    width: 600px;
+}
+
+.home-section-2 .right-box .home-title {
+    font-size: 2.2rem;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.home-section-2 .right-box p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 2rem;
+    margin-bottom: 20px;
+}
+
+/* footer */
+#footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 70px;
+    margin-top: 150px;
+}
+
+#footer nav ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+#footer nav ul li a {
+    color: #fff;
+}
+
+#footer #copy {
+    margin-top: 20px;
+    text-align: center;
+}
