@@ -71,7 +71,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-h4 {
+h2 {
     font-size: 2rem;
 }
 
@@ -177,4 +177,34 @@ h4 {
 #footer #copy {
     margin-top: 20px;
     text-align: center;
+}
+
+/* about */
+.about-section-1 {
+    padding: 0 70px;
+    margin-top: 150px;
+}
+
+.about-section-1 #about-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.about-section-1 #about-subtitle {
+    font-size: 2rem;
+    margin-bottom: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.about-section-1 p {
+    border: 2px solid #000;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: #333;
+    margin-top: 10px;
+    padding: 10px;
 }
