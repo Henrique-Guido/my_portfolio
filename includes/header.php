@@ -19,20 +19,20 @@
         <div class="contact-row">
             <div class="contact-info">
                 <div id="whatsapp-info">
-                    <i class="fa-brands fa-whatsapp"></i>
+                    <i id="whatsapp-icon" class="fa-brands fa-whatsapp"></i>
                     <a href="https://wa.me/11917048978" target="_blank">(11) 91704-8978</a>
                 </div>
                 <div class="email-info">
-                    <i class="fa-solid fa-envelope"></i>
+                    <i id="email-icon" class="fa-solid fa-envelope"></i>
                     <a href="mailto:henriqueguido.006@gmail.com">henriqueguido.006@gmail.com</a>
                 </div>
             </div>
             <div class="social-info">
                 <a href="https://www.linkedin.com/in/henrique-guido-6b0305300/" target="_blank">
-                    <i class="fa-brands fa-linkedin"></i>
+                    <i id="linkedin-icon" class="fa-brands fa-linkedin"></i>
                 </a>
                 <a href="https://www.instagram.com/_guidowski/" target="_blank">
-                    <i class="fa-brands fa-instagram"></i>
+                    <i id="instagram-icon" class="fa-brands fa-instagram"></i>
                 </a>
             </div>
         </div>

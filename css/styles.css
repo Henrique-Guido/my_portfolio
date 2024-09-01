@@ -99,7 +99,7 @@ h2 {
 
 .home-section-1 .left-box .home-title {
     font-size: 2.2rem;
-    color: #333;
+    color: #000;
     text-transform: uppercase;
     margin-bottom: 40px;
     font-weight: bold;
@@ -114,15 +114,17 @@ h2 {
 
 .home-section-1 .left-box #about-btn {
     background-color: #000;
-    color: #FFF;
+    color: #fff;
     padding: 10px 20px;
+    border: 1px solid #000;
     border-radius: 8px;
     font-weight: bold;
     transition: .5s;
 }
 
 .home-section-1 .left-box #about-btn:hover {
-    background-color: #333;
+    background-color: #fff;
+    color: #000;
 }
 
 /* home section 2 */
@@ -144,7 +146,7 @@ h2 {
 
 .home-section-2 .right-box .home-title {
     font-size: 2.2rem;
-    color: #333;
+    color: #000;
     text-transform: uppercase;
     margin-bottom: 40px;
     font-weight: bold;
@@ -180,26 +182,26 @@ h2 {
 }
 
 /* about */
-.about-section-1 {
+.about-section {
     padding: 0 70px;
     margin-top: 150px;
 }
 
-.about-section-1 #about-title {
+.about-section #about-title {
     font-size: 3rem;
     margin-bottom: 20px;
     font-weight: bold;
     text-transform: capitalize;
 }
 
-.about-section-1 #about-subtitle {
+.about-section #about-subtitle {
     font-size: 2rem;
     margin-bottom: 50px;
     font-weight: bold;
     text-transform: capitalize;
 }
 
-.about-section-1 p {
+.about-section p {
     border: 2px solid #000;
     border-radius: 20px;
     font-size: 1.2rem;
@@ -207,4 +209,57 @@ h2 {
     color: #333;
     margin-top: 10px;
     padding: 10px;
+}
+
+/* icons */
+#whatsapp-icon {
+    color: #0dc911;
+}
+
+#email-icon {
+    color: #da1212;
+}
+
+#instagram-icon {
+    color: #8a3ab9;
+}
+
+#linkedin-icon {
+    color: #0a66c2;
+}
+
+#house-icon {
+    color: #da1212;
+}
+
+#cloud-icon {
+    color: #00a2ff;
+}
+
+#tux-icon {
+    color: #000;
+}
+
+#code-icon {
+    color: #009402;
+}
+
+#debian-icon {
+    color: #CE0056;
+}
+
+#ubuntu-icon {
+    color: #e95420;
+}
+
+#redhat-icon {
+    color: #f00;
+}
+
+#fedora-icon {
+    color: #0B57A4;
+}
+
+#suse-icon {
+    color: #73BA25;
 }
