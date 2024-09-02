@@ -44,8 +44,8 @@
             <div id="nav-links">
                 <a href="../index.php">Home</a>
                 <a href="../public_html/about.php">Sobre</a>
-                <a href="projects.php">Projetos</a>
-                <a href="contact.php">Contato</a>
+                <a href="../public_html/projects.php">Projetos</a>
+                <a href="../public_html/contact.php">Contato</a>
             </div>
         </nav>
     </header>
