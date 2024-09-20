@@ -62,6 +62,21 @@ a {
     color: #b1b1b1;
 }
 
+#nav-links #contact-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 16px;
+    font-weight: bold;
+    transition: .5s;
+}
+
+#nav-links #contact-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
 /* main */
 main .main-banner {
     background-image: url(../images/main-banner.webp);
@@ -254,24 +269,20 @@ h2 {
 
 .project-section .project-box {
     width: 80%;
-    display: flex;
-    gap: 2rem;
-    border: 2px solid #000;
-    border-radius: 15px;
+    height: auto;
     padding: 10px;
     margin-bottom: 20px;
+}
+
+.project-section .project-box img {
+    border: 2px solid #000;
+    border-radius: 10px;
 }
 
 .project-section .project-box p {
     font-size: 1.2rem;
     line-height: 2rem;
     color: #333;
-    flex-shrink: 1;
-}
-
-.project-section .project-box img {
-    min-width: 180px;
-    flex-shrink: 0;
 }
 
 .project-section #project-btn {
@@ -324,4 +335,78 @@ h2 {
 
 #suse-icon {
     color: #73BA25;
+}
+
+/* responsivity */
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (max-width: 992px) {
+    /* header */
+    header .contact-row{
+        padding: 0 20px;
+    }
+
+    #nav-row {
+        padding: 0 20px;
+    }
+    
+    /* home */
+    .home-section-1, .home-section-2 {
+        padding: 0 20px;
+    }
+
+    .home-section-1 img {
+        width: 320px;
+        margin-top: 50px;
+    }
+
+    .home-section-2 .left-box {
+        order: 2;
+    }
+
+    .home-section-2 .right-box {
+        order: 1;
+    }
+
+    .home-section-2 img {
+        width: 300px;
+        margin-top: 50px;
+    }
+
+    /* about */
+    .about-section {
+        padding: 0 20px;
+    }
+
+    /* projects */
+    .project-section {
+        padding: 0 20px;
+    }
+
+    /* footer */
+    #footer {
+        padding: 20px 20px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    /* header */
+    header .contact-row {
+        display: none;
+    }
+
+    header #nav-links {
+        display: none;
+    }
+
+    /* home */
+    .main-banner h1 {
+        font-size: 4rem;
+    }
+
+    .main-banner h2 {
+        font-size: 1.5rem;
+    }
+
 }

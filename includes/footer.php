@@ -13,7 +13,7 @@
                         <a href="../public_html/projects.php">Projetos</a>
                     </li>
                     <li>
-                        <a href="../public_html/contact.php">Contato</a>
+                        <a href="https://wa.me/11917048978" target="_blank">Contato</a>
                     </li>
                 </ul>
             </nav>

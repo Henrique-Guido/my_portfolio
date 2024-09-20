@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="../images/nav-logo.webp" type="image/x-icon">
     <!-- styles -->
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/mobile.css">
     <!-- icons -->
     <script src="https://kit.fontawesome.com/035184f79b.js" crossorigin="anonymous"></script>
 </head>
@@ -19,7 +20,7 @@
         <div class="contact-row">
             <div class="contact-info">
                 <div id="whatsapp-info">
-                    <i id="whatsapp-icon" class="fa-brands fa-whatsapp"></i>
+                    <i id="whatsapp-icon" src class="fa-brands fa-whatsapp"></i>
                     <a href="https://wa.me/11917048978" target="_blank">(11) 91704-8978</a>
                 </div>
                 <div class="email-info">
@@ -45,7 +46,7 @@
                 <a href="../index.php">Home</a>
                 <a href="../public_html/about.php">Sobre</a>
                 <a href="../public_html/projects.php">Projetos</a>
-                <a href="../public_html/contact.php">Contato</a>
+                <a id="contact-btn" href="https://wa.me/11917048978" target="_blank">Contato</a>
             </div>
         </nav>
     </header>
