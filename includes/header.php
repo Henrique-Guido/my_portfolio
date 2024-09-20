@@ -10,7 +10,6 @@
     <link rel="shortcut icon" href="../images/nav-logo.webp" type="image/x-icon">
     <!-- styles -->
     <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/mobile.css">
     <!-- icons -->
     <script src="https://kit.fontawesome.com/035184f79b.js" crossorigin="anonymous"></script>
 </head>
