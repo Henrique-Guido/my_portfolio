@@ -409,4 +409,12 @@ h2 {
         font-size: 1.5rem;
     }
 
+    .home-section-1 .right-box {
+        text-align: center;
+    }
+
+    .home-section-2 .left-box {
+        text-align: center;
+    }
+
 }
